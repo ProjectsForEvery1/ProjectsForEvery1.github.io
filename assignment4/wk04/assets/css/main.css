@@ -1,0 +1,38 @@
+*{
+    margin-left: 1.5em;   /*relative values:
+                          16pt default font size then 1.5em = 16*1.5= 24pt incent
+                          24pt default font size then 1.5em = 24*1.5= 36pt incent*/
+    margin-left:  10px;/* absolute value does not matter what the point size is of the default font.*/
+
+}
+body{
+    background: tan;
+    font-family: Arial, sans-serif ;
+}
+
+.loremP{
+    font-family: "Times New Roman", Times, Serif;
+}
+#lorem{
+    color: #0000FF;
+    font-size: 150%;
+}
+h3+h4, h4+a{
+    border: 1px solid red;
+}
+section p{
+    background-color: yellow;
+}
+ol li:first-child{
+    color:red;
+}
+ol li:last-child{
+    color:blue;
+}
+ol li:nth-child(2){
+    color:green;
+}
+#lorem::first-letter{
+    font-size: 180%;
+    color: darkred;
+}

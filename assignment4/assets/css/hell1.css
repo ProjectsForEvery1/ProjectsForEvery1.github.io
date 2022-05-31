@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Genos:wght@200&family=Irish+Grover&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #363641;
+}
+
+.logo{
+    min-width: 10%;
+    max-width: 15%;
+}
+.head{
+    display: flex;
+    /*align-items: center;*/
+    border-bottom: 2px solid black;
+}
+header{
+    /*background-image: url("../img/d1it5qj-92aa696c-6ad6-4406-a91e-ed923ab2ac31.jpg");*/
+    background-color: #3d4451;
+    /*width: 100vw;*/
+}
+.head h1{
+    margin: auto;
+    color: tan;
+    text-align: center;
+    font-family: "Lucida Calligraphy";
+    font-weight: bold;
+    text-decoration: underline;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.links ul li{
+    list-style-type: none;
+    padding: 1em;
+}
+.links ul{
+    display: flex;
+}
+.about{
+    /*margin-top: 5rem;*/
+    height: 100vh;
+    padding-top: 5rem;
+}
+.head1{
+    text-align: center;
+    border-bottom: 2px solid tan;
+    width: 50vw;
+    margin: 1rem auto;
+    font-family: Algerian;
+
+
+}
+/*.about h2{*/
+/*    text-align: center;*/
+/*    border-bottom: 2px solid tan;*/
+/*    width: 50vw;*/
+/*    margin: auto;*/
+/*    font-family: Algerian;*/
+/*}*/
+
+/*.carl{*/
+/*    width: 50%;*/
+/*    margin: 7em 2em 7em 20em;*/
+/*}*/
+
+.job{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    margin: auto;
+}
+.history{
+    margin: 2em 3em 2em 4em;
+    flex-basis: 50vw;
+}
+.history p{
+    font-family: "Century Schoolbook";
+    flex-basis: 100vw;
+    font-weight: bolder;
+}
+.history h3{
+    text-align: center;
+    background-color: gray;
+
+}
+#roll{
+    width: 40vw;
+    height: 67vh;
+    background-image: url("../img/Phone.JPG");
+    background-size: cover;
+}
+#roll:hover{
+    width: 40vw;
+    height: 67vh;
+    background-image: url("../img/Robinhood.JPG");
+    background-size: cover;
+}
+.DescriptionImage img{
+    flex-basis: 0;
+}
+.JobSub{
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+}
+.DescriptionText{
+    /*width: 100vw;*/
+    flex-basis: 20vw;
+    margin-left: 4rem;
+}
+.DescriptionText h3{
+    text-align: center;
+    background-color: gray;
+    width: 50vw;
+}
+.DescriptionText p{
+    font-family: "Fira Code Medium";
+    font-weight: bolder;
+}
+.jobDescription h2{
+    text-align: center;
+    border-bottom: 2px solid tan;
+    width: 50vw;
+    margin: auto;
+    font-family: Algerian;
+}
+.jobDescription{
+    background-color: #3d4451;
+    height: 100vh;
+    padding-top: 10rem;
+}
+table, th, td{
+    border: 2px solid black;
+    margin: auto;
+
+}
+.content{
+    width: 80%;
+    height: 40vh;
+}
+thead th{
+    height: 10vh;
+    font-family: "Lucida Calligraphy";
+    font-size: 2em;
+    background-color: #2a2a4f;
+}
+.Responsibility{
+    text-align: center;
+    height: 100vh;
+    align-content: center;
+    padding-top: 9rem;
+}
+tbody tr:nth-child(even){
+    background-color: #252570;
+}
+tbody tr:nth-child(odd){
+    background-color: #5858ab;
+}
+.Responsibility h2{
+    border-bottom: 2px solid tan;
+    width: 50vw;
+    margin: auto;
+    font-family: Algerian;
+}
+.content{
+    margin-top: 4rem;
+}
+.inner1{
+    width: 80vw;
+    height: 50vh;
+
+}
+.caption1{
+    caption-side: top;
+    font-family: "Century Schoolbook";
+}
+.caption{
+    caption-side: top;
+    font-family: "Century Schoolbook";
+}
+.inner1, td{
+    border-collapse: collapse;
+}
+.table2 tr {
+    background-color: #8181ab;
+}
+.table2, .table1{
+    border-collapse: collapse;
+    margin: auto;
+}
+.inner1{
+    height: 60vh;
+    margin-top: 2rem;
+
+}
+.Quality{
+    text-align: center;
+    font-family: Algerian;
+    border-bottom: 2px solid tan;
+    width: 50vw;
+    margin: 0 auto;
+
+}
+.section{
+    background-color: #3d4451;
+    height: 100vh;
+    padding-top: 6rem;
+
+}
+.class1{
+    display: flex;
+    justify-content: space-between;
+}
+.class3{
+    display: flex;
+    justify-content: space-between;
+}
+.class4{
+    display: flex;
+    justify-content: space-between;
+}
+.sub{
+    padding: 2rem;
+}
+fieldset{
+    width: 55%;
+    margin: auto;
+    background-color: #6767a2;
+    /*background-color: #141470;*/
+    border: 2px solid black;
+}
+.sub>label{
+    flex-basis: 10rem;
+}
+.class5{
+    display: flex;
+}
+.class6{
+    display: flex;
+}
+.class8 label{
+    vertical-align: top;
+}
+.class9, .class10{
+    text-align: center;
+}
+.wrapped{
+    margin-top: 7rem;
+}
+.wrapped h2{
+    text-align: center;
+    font-family: Algerian;
+}

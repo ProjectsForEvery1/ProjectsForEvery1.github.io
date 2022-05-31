@@ -1,0 +1,36 @@
+
+#description{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 1em;
+    font-size: 150%;
+
+}
+#description div{
+    float: left;
+    flex: 1 1 50%;
+}
+#description div h1{
+    text-align: center;
+}
+#responsibilitiesAndDuties{
+    width: 1000px;
+    border-spacing: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#responsibilitiesAndDuties th{
+    background-color: rgb(219, 203, 203);
+}
+#responsibilitiesAndDuties td{
+    vertical-align: top;
+}
+#responsibilitiesAndDuties td:nth-child(even){
+    text-align: right;
+}
+#responsibilitiesAndDuties, th, td{
+    border:black solid 2px;
+}
+#responsibilitiesAndDuties th, td{
+    padding: 10px;
+}
